@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.over{
+    background-color: black;
+    min-height: 900px;
+    opacity: 0.4;
+    overflow: hidden;
+
+}
+.div1{
+    background-image: url(../img/10.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 900px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+nav{
+display: flex;
+ 
+}
+.span1{
+    color: white;
+    font-size: 30px;
+flex: 30%;
+padding-left: 30px;
+padding-top: 30px;
+
+
+}
+.d{
+    display: flex;
+    flex: 30%;
+    justify-content: flex-start;
+}
+.dd{
+    display: flex;
+    flex: 70%;
+    justify-content: flex-end;
+}
+.a1{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 25px;
+  padding-left: 20px;
+ padding-right: 40px;
+ padding-top: 30px;
+ 
+
+}
+.div2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     height: 250px;
+     margin-top: 220px;
+     line-height: 60px;
+      
+  }
+h1{
+    color: white;
+    font-size: 60px;
+ }
+ h2{
+     color: white;
+     font-size: 30px;
+ }
+  .butt1{
+      width: 140%;
+      height: 55px;
+      background-color: #2196F3;
+      color: white;
+      text-transform: uppercase;
+      font-size: 15px;
+      outline: none;
+      border: none;
+    }
+ .div3{
+     margin: auto;
+  }
+  .sec2{
+      margin-top: 90px;
+     text-align: center;
+  }
+  .p1{
+      color: rgb(70, 69, 69);
+      font-size: 40px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 30px;
+  }
+  .p2,.p3{
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    line-height: 28px;
+   }
+   hr{
+       border-bottom: 2px solid #2196F3;
+       width: 10%;
+       margin: auto;
+       margin-top: 30px;
+   }
+   .sec3{
+       margin-top: 90px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+   }
+   img{
+       width: 400px;
+       height: 300px;
+   }
+   .div4{
+    display: flex;
+     justify-content:center;
+     margin-top: 40px;
+   }
+   .div5{
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+   }
+   .img2,.img4{
+margin-left: 30px;
+   }
+   .img1{
+       margin-left: 150px;
+       flex-grow: 0.5;
+
+   }
+   .img2{
+       flex-grow: 2;
+        margin-right: 150px;
+
+   }
+   .img3{
+    margin-left:150px;
+    flex-grow: 3.2;
+
+}
+.img4{
+    margin-right: 150px;
+    flex-grow: 2;
+
+}
+.sec4{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin-top: 60px;
+
+}
+.icon{
+    color:#2196F3;
+    font-size: 60px;
+}
+.p4{
+    color: rgb(70, 69, 69);
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 30px;
+      padding-top: 20px;
+}
+.p5,.p6,.p7{
+       font-size: 20px;
+       line-height: 30px;
+
+ }
+ .div6,.div7,.div8{
+     margin-left: 30px;
+ }
+
+ .sec5{
+margin-top: 90px;
+display: flex;
+flex-direction: column;
+
+ }
+ .div9,.div10,.div11{
+ margin: auto;
+ text-align: center;
+ margin-bottom: 50px;
+
+}
+.p8,.p9{
+    font-size: 22px;
+
+}
+.p10{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.p12{
+    color: rgb(70, 69, 69);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+padding-bottom: 30px;
+}
+.p11{
+    padding-bottom: 15px;
+    color: rgb(70, 69, 69);
+
+}
+.sec6{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.div13{
+    margin-left: 8px;
+}
+input[type="email"]{
+    width: 500px;
+    height: 55px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.butt2{
+    width: 240%;
+    height: 55px;
+    background-color: #2196F3;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+  footer{
+      height: 250px;
+      background-color: #414A4F;
+      display: flex;
+
+  }
+  .fott{
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+  .icon2{
+      color: white;
+      font-size: 30px;
+      margin-left: 10px;
+    }
+  .divicon{
+      margin-bottom: 15px;
+      margin-top: 5px;
+  }
+  .a2{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+   }
+  .p15{
+      color: #A5B5B7;
+      font-size: 20px;
+      line-height: 25px;
+  }

@@ -1,0 +1,47 @@
+@media screen and (max-width:600px){
+     
+    .nav{
+        flex-direction: column;
+    }
+    .d{
+         flex: 100%;
+         margin-top: 30px;
+       }
+    .dd{
+          margin-top: 100px;
+        }
+       
+      hr{
+          width: 100px;
+      }
+      .div4,.div5{
+          justify-content:center;
+          flex-direction: column;
+         }
+         .img1,.img3,.img4,.img2{
+margin: auto;
+ 
+         }
+         .img2,.img4{
+            margin-top: 35px;
+
+         }
+         .sec4{
+             flex-direction: column;
+         }
+          
+          
+         .sec6{
+             flex-direction: column;
+         }
+          input[type="email"]{
+         width: 270px;
+           margin-left: 70px;
+        }
+        .butt2{
+            width: 240px;
+            margin-left: 80px;
+            margin-top: 20px;
+
+        }
+}
